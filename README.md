@@ -32,7 +32,6 @@ pip install ultralytics python-doctr[torch] opencv-python numpy pyautogui
 
 - GPU NVIDIA avec CUDA recommandé pour les performances temps réel
 - Le modèle `yolo11s-seg.pt` doit être présent à la racine
-- Dossier `PhaseII_SIF1033/Fichiers/` avec `logo.png` et les images de test
 
 ## Lancer le projet
 
@@ -50,7 +49,6 @@ python Test.py
 Projet_Phase2.py          — script principal (pipeline vidéo)
 Fonctions.py              — fonctions utilitaires (source, segmentation, OCR, incrustation)
 Test.py                   — tests sur images statiques
-PhaseII_SIF1033/Fichiers/ — logo et images de test
 ```
 
 ---
